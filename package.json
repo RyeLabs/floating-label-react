@@ -11,6 +11,7 @@
     "watch": "rollup -cw",
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npm run build"
   },
   "keywords": [
     "floating-label",
